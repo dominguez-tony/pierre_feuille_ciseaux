@@ -1,0 +1,81 @@
+* {
+    color: #00ff33;
+}
+
+html {
+    background-color: #000033;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.images {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+
+.bouton {
+    border-radius: 10px;
+    border: #00ff33 solid 3px;
+    background-color: white;
+
+}
+
+.bouton:hover {
+    border-color: orangered;
+}
+
+form {
+    padding-top: 30px;
+    padding: 30px;
+}
+
+input {
+    padding: 10px;
+    margin: 30px;
+}
+
+.cont_shifumi p {
+    font-size: 100px;
+    margin: auto;
+    height: 235px;
+    line-height: 235px;
+
+}
+
+.cont_shifumi {
+    background-color: #000033;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.AffScore {
+    margin: auto;
+
+}
+
+
+.Feuille {
+    width : 200px;
+    height: 235px;
+    background-image: url("img/02.jpg");
+}
+
+.Pierre {
+    width : 200px;
+    height: 235px;
+    background-image: url("img/03.jpg");
+}
+
+.Ciseaux {
+    width : 200px;
+    height: 235px;
+    background-image: url("img/01.jpg");
+    background-size: auto;
+}
